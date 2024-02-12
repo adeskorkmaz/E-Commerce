@@ -1,0 +1,42 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  background-color: #eeee;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.product-name {
+  font-size: 1.5em;
+  color: black !important
+}
+
+.shopping-cart {
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  border: 1px solid rgb(190, 189, 189);
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px !important;
+  line-height: 25px;
+  font-size: 13px;
+  background-color: white !important;
+}
+
+.product-image {
+  height: 350px !important;
+  width: 100%;
+}
